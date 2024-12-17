@@ -14,15 +14,6 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
-    // colors: {
-    //   doanSky: "#C3EBFA",
-    //   doanSkyLight: "#EDF9FD",
-    //   doanPurple: "#CFCEFF",
-    //   doanPurpleLight: "#F1F0FF",
-    //   doanYellow: "#FAE27C",
-    //   doanYellowLight: "#FEFCE8",
-    //   doanWhite: "white",
-    // },
   },
 
   plugins: [],

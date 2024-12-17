@@ -24,17 +24,17 @@ const AdminPage = () => {
         <Menu />
       </div>
       {/* Right */}
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-scroll flex flex-col">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-scroll flex flex-col scrollbar-hide">
         <Navbar />
-        <div className="p-4 flex gap-4 flex-col md:flex-row">
+        <div className="p-4 flex gap-4 flex-col md:flex-row ">
           {/* LEFT */}
           <div className="w-full lg:w-2/3 flex flex-col gap-8">
             {/* USER CARDS */}
             <div className="flex gap-4 justify-between">
-              <UserCard type="students" />
-              <UserCard type="teachers" />
-              <UserCard type="parents" />
-              <UserCard type="staffs" />
+              <UserCard type="Sinh Viên" />
+              <UserCard type="Giáo Viên" />
+              <UserCard type="Phụ Huynh" />
+              <UserCard type="Ban Cán bộ" />
             </div>
             {/* MINDDLE CHARTS */}
             <div className="flex gap-4 flex-col lg:flex-row">
